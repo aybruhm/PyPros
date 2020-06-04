@@ -15,6 +15,6 @@ class Circle:
     def perimeter(self):
         return 2*self.radius*3.14
 
-circle = Circle()
-print(circle.age())
+circle = Circle(6)
+print(circle.area())
 print(circle.perimeter())
